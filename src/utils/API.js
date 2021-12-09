@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const urlPrefix = "https://pokeapi.co/api/v2/pokemon";
+const urlPrefix = "https://pokeapi.co/api/v2/pokemon?limit=151";
 
 const API = {
   getAllPokemon: function (pokemon) {
